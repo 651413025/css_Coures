@@ -1,0 +1,63 @@
+/*ul{
+    list-style-type: square;
+    list-style-position: inside;
+    color: blueviolet;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    list-style-image: url(/images/checklist.png);
+}*/
+ul li:nth-child(1){
+    color: rgb(252, 110, 16);
+}
+ul li:nth-child(2){
+    color: rgb(6, 85, 202);
+}
+ul li:nth-child(3){
+    color: rgb(245, 0, 224);
+}
+/*ul li:(not:last-child){
+    color: rgb(245, 0, 224);
+}*/
+p{
+    font-size: 20px;
+}
+#paragraphs{
+    color: blueviolet;
+}
+
+#pclass{
+    color: rgb(253, 0, 253);
+}
+#pat{
+    color: brown;
+}
+body{
+    font-size: 22px;
+}
+/**{
+    margin: 5px;
+}*/
+main{
+    font-family:'Alkatra', cursive;;
+}
+.hightlight{
+    background-color: rgb(255, 204, 138);
+}
+#pchild {
+    color: rgb(73, 255, 73);
+}
+/*ul .li-class{
+    font-size: 30px;
+    color: rgb(231, 55, 55);  
+}*/
+a:focus{
+    color: blueviolet;
+}
+a:hover{
+    font-size:30px;
+    text-decoration: none;  
+}
+a:visited{
+    color: rgb(50, 173, 255);
+}
